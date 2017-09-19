@@ -8,10 +8,47 @@
 */Intermediate/
 */Saved
 BuildingEscape/Content/StarterContent/
+*_BuiltData.uasset
 
 ######################
 # VS Generated Files #
 ######################
 
 *.VC.db
+.vs/
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.so
+*.dylib
+*.dll
+*.mod
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+*.ipa
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+SourceArt/**/*.png
+SourceArt/**/*.tga
 
+# Whitelist PakBlacklist-<BuildConfiguration>.txt files
+!Build/*/
+Build/*/**
+!Build/*/PakBlacklist*.txt
+
+# Don't ignore icon files in Build
+!Build/**/*.ico
